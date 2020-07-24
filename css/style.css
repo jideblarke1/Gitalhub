@@ -23,8 +23,8 @@ p{
     font-size: 1.6rem;
 }
 
-img{
-     width: 100%;
+.herobg{
+     width: inherit;
      max-width: 100%;
      height: auto;
 }
@@ -34,7 +34,7 @@ section{
 }
 
 body{
-    background-color: cornflowerblue;
+    background-color: off-white;
 }
 
 /*header*/
@@ -68,3 +68,18 @@ nav{
 .menu-icons i{
     font-size: 3.5rem;
 }
+
+.row{
+    display: flex;
+    flex-direction: column;
+
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+
+}
+  
+
+
